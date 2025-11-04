@@ -1,7 +1,7 @@
 # AI Rock Paper Scissors
 
 A **Rock Paper Scissors** game powered by **Machine Learning** where users play against AI that detects your hand gestures in real-time and wins every time.
-Built with **HTML**, **CSS**, and **JavaScript**, and powered by **MediaPipe Hands** 🖐️.
+Built with **HTML**, **CSS**, and **JavaScript**, and powered by **MediaPipe Hands**.
 
 ---
 
