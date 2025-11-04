@@ -2,6 +2,7 @@
 
 A **Rock Paper Scissors** game powered by **Machine Learning** where users play against AI that detects your hand gestures in real-time and wins every time.
 Built with **HTML**, **CSS**, and **JavaScript**, and powered by **MediaPipe Hands**.
+> _developed by @jenyyy4 with love <3_
 
 ---
 
@@ -21,4 +22,7 @@ Built with **HTML**, **CSS**, and **JavaScript**, and powered by **MediaPipe Han
 - **JavaScript**
 - **MediaPipe Hands API** for **_hand gesture recognition_**
 
-> _developed by @jenyyy4 with love <3_
+---
+
+## Screenshot:
+<img width="1440" height="673" alt="airockpaperscissors" src="https://github.com/user-attachments/assets/c7403991-c147-4fba-b17f-a88253eb6df7" />
