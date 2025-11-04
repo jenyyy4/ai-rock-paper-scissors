@@ -1,0 +1,95 @@
+body {
+  background: url("bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+p {
+    margin: 0;
+}
+.top {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.bottom {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 450;
+}
+
+.video {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.input {
+  width: 22rem;
+  height: 15rem;
+  border-radius: 1rem;
+  border: 0.5rem solid pink;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.output {
+  width: 22rem;
+  height: 15rem;
+  border-radius: 1rem;
+  border: 0.5rem solid rgb(253, 216, 222);
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.input, .output { 
+    transform: scaleX(-1); 
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+.label {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.7);
+}
+
+.result {
+  padding: 0.75rem 1.125rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+#resultText { 
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-weight: 700; 
+    font-size: 2.25rem;
+}
+
+@media (max-width: 800px) {
+  .video { 
+    flex-direction: column; 
+    gap: 2rem;
+  }
+}
